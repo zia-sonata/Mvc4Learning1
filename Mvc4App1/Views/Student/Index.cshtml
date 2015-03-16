@@ -1,0 +1,71 @@
+﻿@model Mvc4App1.Models.StudentCourseViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Save", "Student", FormMethod.Post, new {id="addNewUserForm" }))
+{
+    @Html.ValidationSummary(false)
+
+    <fieldset>
+        <legend>StudentCourseViewModel</legend>
+        @if (Model != null)
+        {
+            int c = 0;
+            foreach (var student in Model.Students)
+            {
+                @Html.HiddenFor(a => a.Students[c].StudentId)
+            <li>@Html.TextBoxFor(a => a.Students[c].StudentName) </li>
+                c++;
+            }
+
+            int cc = 0;
+            foreach (var course in Model.Courses)
+            {
+            <li>@Html.TextBoxFor(a => a.Courses[cc].CourseName) </li>
+                cc++;
+            }
+        }
+        <p>
+            <input type="submit" value="Save" />
+             <input id="adduser" type="button" value="Add User" />
+        </p>
+    </fieldset>
+    <p>@Model.Fees
+    </p>
+}
+<input id="ajaxPost" type="button" value="AJAX POST" />
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script language="javascript">
+        
+        $(document).ready(function () {
+            $('#adduser').click(function (e) {
+                e.preventDefault();
+                if ($("#addNewUserForm").valid()) { //if you use validation
+                    //reset unobtrusive validation summary, if it exists
+                    $("#addNewUserForm").find("[data-valmsg-summary=true]")
+                         .removeClass("validation-summary-errors")
+                          .addClass("validation-summary-valid")
+                             .find("ul").empty();
+                    $.ajax({
+                        url: $("#addNewUserForm").attr('action'),
+                        type: $("#addNewUserForm").attr('method'),
+                        data: $("#addNewUserForm").serialize(),
+                        success: function (data) {
+                            alert(data.Status);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
