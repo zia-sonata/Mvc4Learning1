@@ -1,0 +1,6 @@
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Sudent.BusinessRepository\bin\Debug\Sudent.BusinessRepository.dll
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Sudent.BusinessRepository\bin\Debug\Sudent.BusinessRepository.pdb
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Sudent.BusinessRepository\obj\Debug\Sudent.BusinessRepository.dll
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Sudent.BusinessRepository\obj\Debug\Sudent.BusinessRepository.pdb
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Sudent.BusinessRepository\bin\Debug\Student.Interface.dll
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Sudent.BusinessRepository\bin\Debug\Student.Interface.pdb

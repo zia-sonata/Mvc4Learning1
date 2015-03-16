@@ -1,0 +1,4 @@
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Student.Interface\bin\Debug\Student.Interface.dll
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Student.Interface\bin\Debug\Student.Interface.pdb
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Student.Interface\obj\Debug\Student.Interface.dll
+C:\Users\zia\documents\visual studio 2010\Projects\Mvc4App1\Student.Interface\obj\Debug\Student.Interface.pdb
