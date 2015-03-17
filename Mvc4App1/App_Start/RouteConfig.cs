@@ -14,9 +14,17 @@ namespace Mvc4App1
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+            name: "Student",
+            url: "student/{id}",
+            defaults: new { controller = "Student", action = "Index" },
+            constraints: new { id = @"\d+" }
+
+                );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Student", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
