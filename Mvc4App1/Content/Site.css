@@ -1,4 +1,20 @@
-﻿html {
+﻿/** Custom **/         
+
+.floatDiv 
+{
+    padding:20px;
+       position:fixed;
+       right:0px;
+       bottom:0px;
+        width:300px;
+        height:200px;
+        background-color:Gray;
+    }
+    
+    
+           
+  /** Custom **/         
+html {
     background-color: #e2e2e2;
     margin: 0;
     padding: 0;

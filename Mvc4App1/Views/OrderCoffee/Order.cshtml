@@ -1,0 +1,22 @@
+﻿@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/OrderCoffee")
+
+<div class="floatDiv slide">
+<button class="btn-minimize">Hide</button>
+@using (Html.BeginForm())
+{
+<p>How would you like your coffee?</p>
+
+@Html.CheckBox("coffee", new { name = "coffee", value = "sugar" }) 
+  <span>With Sugar</span> 
+<br />
+@Html.CheckBox("coffee", new { name = "coffee", value = "cream" }) 
+     <span>With Cream</span> 
+<br />
+
+<input type="button" id="btnOrder" value="Send order">
+<input type="text" id="order" size="50">
+
+}
+
+</div>

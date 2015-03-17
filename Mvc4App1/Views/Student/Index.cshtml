@@ -5,7 +5,7 @@
 }
 
 <h2>Index</h2>
-
+@Html.Partial("~/Views/OrderCoffee/Order.cshtml")
 @using (Html.BeginForm("Save", "Student", FormMethod.Post, new {id="addNewUserForm" }))
 {
     @Html.ValidationSummary(false)
