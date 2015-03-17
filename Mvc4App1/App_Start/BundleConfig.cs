@@ -42,6 +42,10 @@ namespace Mvc4App1
             bundles.Add(new ScriptBundle("~/bundles/OrderCoffee").Include(
                 "~/Scripts/OrderCoffee/OrderCoffee.js"
                 ));
+
+            bundles.Add(new ScriptBundle("~/bundles/Student").Include(
+            "~/Scripts/Student/Student.js"
+            ));
         }
     }
 }

@@ -30,42 +30,19 @@
             }
         }
         <p>
-            <input type="submit" value="Save" />
-             <input id="adduser" type="button" value="Add User" />
+             <input id="adduser" type="button" value="Add User AJAX" />
         </p>
     </fieldset>
-    <p>@Model.Fees
+    <p>
+    @Html.LabelFor(a=>a.Fees)
+    @Model.Fees
     </p>
 }
-<input id="ajaxPost" type="button" value="AJAX POST" />
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
-
-    <script language="javascript">
-        
-        $(document).ready(function () {
-            $('#adduser').click(function (e) {
-                e.preventDefault();
-                if ($("#addNewUserForm").valid()) { //if you use validation
-                    //reset unobtrusive validation summary, if it exists
-                    $("#addNewUserForm").find("[data-valmsg-summary=true]")
-                         .removeClass("validation-summary-errors")
-                          .addClass("validation-summary-valid")
-                             .find("ul").empty();
-                    $.ajax({
-                        url: $("#addNewUserForm").attr('action'),
-                        type: $("#addNewUserForm").attr('method'),
-                        data: $("#addNewUserForm").serialize(),
-                        success: function (data) {
-                            alert(data.Status);
-                        }
-                    });
-                }
-            });
-        });
-    </script>
-}
+    @Scripts.Render("~/bundles/Student")
+} 
