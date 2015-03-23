@@ -126,3 +126,5 @@ C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\DotNetOpenA
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\obj\Debug\Mvc4App1.Tests.csprojResolveAssemblyReference.cache
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\obj\Debug\Mvc4App1.Tests.dll
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\obj\Debug\Mvc4App1.Tests.pdb
+C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Moq.dll
+C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Moq.xml
