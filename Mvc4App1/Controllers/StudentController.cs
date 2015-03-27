@@ -36,7 +36,7 @@ namespace Mvc4App1.Controllers
         {
             var students = db.Students.ToList();
 
-            db.Students.RemoveRange(students);
+            //db.Students.RemoveRange(students);
 
             db.SaveChanges();
 

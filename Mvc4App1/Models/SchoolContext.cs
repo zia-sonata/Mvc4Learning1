@@ -10,5 +10,10 @@ namespace Mvc4App1.Models
     {
         public DbSet<Student> Students { get; set; }
         public DbSet<Course> Courses { get; set; }
+
+        public DbSet<Interview> Interviews { get; set; }
+        public DbSet<Emails> Emails { get; set; }
+        public DbSet<PhoneCalls> PhoneCalls { get; set; }
+       
     }
 }

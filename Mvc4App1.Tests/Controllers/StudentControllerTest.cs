@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Mvc4App1.Controllers;
 using Student.Interface;
 using Moq;
+using System.Web.Mvc;
 namespace Mvc4App1.Tests.Controllers
 {
     [TestClass]
@@ -23,9 +24,9 @@ namespace Mvc4App1.Tests.Controllers
 
             var controller = new StudentController(mockRep.Object);
 
-            var result = controller.Index();
+            var result = controller.Index() as ActionResult;
 
-
+            Assert.IsNotNull(result);
 
         }
 

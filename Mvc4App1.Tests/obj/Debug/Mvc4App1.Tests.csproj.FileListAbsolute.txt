@@ -66,7 +66,6 @@ C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Mvc4App1.Te
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Mvc4App1.Tests.dll
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Mvc4App1.Tests.pdb
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\EntityFramework.dll
-C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Mvc4App1.dll
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Newtonsoft.Json.dll
@@ -98,7 +97,6 @@ C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\DotNetOpenA
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Antlr3.Runtime.dll
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Mvc4App1.pdb
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\EntityFramework.xml
-C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\System.Net.Http.xml
 C:\Users\zia\Documents\GitHub\Mvc4Learning1\Mvc4App1.Tests\bin\Debug\System.Net.Http.Formatting.xml
